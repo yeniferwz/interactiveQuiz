@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive quiz</title>
-    <link rel = "stylesheet" href="./style.css"><link>
+    <link rel = "stylesheet" href="./bootstrap.min (1).css"><link>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
     ?>
 
     <form action = "question.php">
-        <button>Start the quiz </button>
+        <button class="btn btn-outline-warning centro">Start the quiz </button>
     </form>
 </body>
 
