@@ -30,7 +30,8 @@
         $_SESSION["success"] = $success;
     ?>
     <?php 
-        if($index == 5){ ?>
+    $MAX_QUESTIONS_ATZAR = 10;
+        if($index == $MAX_QUESTIONS_ATZAR){ ?>
             <form action ="results.php">
                 <input type ="submit" value="Check the results"></input>
             </form>

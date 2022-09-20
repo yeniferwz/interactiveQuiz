@@ -24,6 +24,7 @@
         $_SESSION["arr_questions"] = array(); //de moment agafa les 5 primeres preguntes per test
         $arr_questions = $_SESSION["arr_questions"];
 
+        $MAX_QUESTIONS_ATZAR = 10;
         $j = 0;
         do{
             $random = rand(0,$arr_length - 1);
@@ -31,7 +32,7 @@
                 $arr_questions[] = $random;
                 $j++;
             }
-        }while($j < 5);
+        }while($j < $MAX_QUESTIONS_ATZAR);
         $_SESSION["arr_questions"] = $arr_questions;
     ?>
 
